@@ -7,6 +7,7 @@ import img21 from "../assets/img21.png";
 import img22 from "../assets/img22.png";
 import img23 from "../assets/img23.png";
 import img24 from "../assets/img24.png";
+import img62 from "../assets/img62.jpg"
 import { NavLink } from "react-router-dom";
 
 
@@ -21,7 +22,7 @@ const WorkCardVideoshoot = () => {
             <div className="pro-details">
                 <p>These contain commercials that was taken for TEASER Beverages Sri Lanka.</p>
                 <div className="pro-btns">
-                    <NavLink to="https://www.facebook.com/media/set/?set=a.258012773481211&type=3" className="btn">View</NavLink>
+                    <NavLink to="https://web.facebook.com/media/set/?set=a.258012773481211&type=3" className="btn">View</NavLink>
                 </div>
             </div>
         </div>
@@ -31,7 +32,7 @@ const WorkCardVideoshoot = () => {
             <div className="pro-details">
                 <p>These contain commercials that was taken for OhDonuts Sri Lanka.</p>
                 <div className="pro-btns">
-                    <NavLink to="https://www.facebook.com/media/set/?set=a.258012823481206&type=3" className="btn">View</NavLink>
+                    <NavLink to="https://web.facebook.com/media/set/?set=a.258012823481206&type=3" className="btn">View</NavLink>
                 </div>
             </div>
         </div>
@@ -65,6 +66,16 @@ const WorkCardVideoshoot = () => {
                 <p>These contain commercials that was taken for Skyvox Speakers.</p>
                 <div className="pro-btns">
                     <NavLink to="https://www.facebook.com/media/set/?set=a.258013666814455&type=3" className="btn">View</NavLink>
+                </div>
+            </div>
+        </div>
+        <div className="project-card">
+            <img src={img62} alt="image" />
+            <h2 className="project-title">Commercials for Dinemore Sri Lanka</h2>
+            <div className="pro-details">
+                <p>These contain commercials that was taken for Dinemore Sri Lanka.</p>
+                <div className="pro-btns">
+                    <NavLink to="https://web.facebook.com/media/set/?set=a.429527332996420&type=3" className="btn">View</NavLink>
                 </div>
             </div>
         </div>

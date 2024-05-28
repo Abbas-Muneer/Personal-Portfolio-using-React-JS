@@ -61,7 +61,7 @@ const WorkCardVideoshoot = () => {
         </div>
         <div className="project-card">
             <img src={img24} alt="image" />
-            <h2 className="project-title">Commercials for Skyvox Sri Lanka</h2>
+            <h2 className="project-title">Commercials for Skyvox Sri Lanka 2023</h2>
             <div className="pro-details">
                 <p>These contain commercials that was taken for Skyvox Speakers.</p>
                 <div className="pro-btns">

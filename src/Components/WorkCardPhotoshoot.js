@@ -28,12 +28,85 @@ import img58 from "../assets/img58.jpg"
 import img59 from "../assets/img59.jpg"
 import img60 from "../assets/img60.jpg"
 import img61 from "../assets/img61.jpg"
+import img63 from "../assets/img63.jpg"
+import img64 from "../assets/img64.jpg"
+import img65 from "../assets/img65.jpg"
+import img66 from "../assets/img66.jpg"
+import img67 from "../assets/img67.jpg"
+import img68 from "../assets/img68.jpg"
+import img69 from "../assets/img69.jpg"
 import { NavLink } from "react-router-dom";
 
 const WorkCardPhotoshoot = () => {
     return (
         <div className=""work-container>
           <h1 className="project-heading">Photoshoots</h1> 
+          <div className="project-container">
+            <div className="project-card">
+                <img src={img67} alt="image" />
+                <h2 className="project-title">Unilever HR Connect 2024</h2>
+                <div className="pro-details">
+                    <p>HR Connect Event of Unilever that was held at Sheraton Sri Lanka 2024.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://web.facebook.com/share/14Z85gPnW5/" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+            <div className="project-card">
+                <img src={img66} alt="image" />
+                <h2 className="project-title">Keyan & Yaara's Birthday Party</h2>
+                <div className="pro-details">
+                    <p>Keyan & Yaara's Birthday Party 2024.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://web.facebook.com/share/1DQS1w2MQG/" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+            <div className="project-card">
+                <img src={img65} alt="image" />
+                <h2 className="project-title">Book Launch Event of Mr. S.H.A. Wadood</h2>
+                <div className="pro-details">
+                    <p>Book Launch Event of Mr. S.H.A. Wadood 2024.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://web.facebook.com/share/19aMKgQ49b/" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+          </div>   
+
+          <div className="project-container">
+            <div className="project-card">
+                <img src={img53} alt="image" />
+                <h2 className="project-title">GrooveLabs DJ Night 2023</h2>
+                <div className="pro-details">
+                    <p>GrooveLabs DJ Party hosted by Rythm Revolution. Held in August 2023.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.352240320725122&type=3" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+            <div className="project-card">
+                <img src={img63} alt="image" />
+                <h2 className="project-title">Playtrix Acoustic Night DJ Event</h2>
+                <div className="pro-details">
+                    <p>DJ event at Playtrix One Galle Face 2024.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://web.facebook.com/share/15HGTWLL7s/" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+            <div className="project-card">
+                <img src={img56} alt="image" />
+                <h2 className="project-title">Idhu Vaaliba Vayasu 2024 - DJ Event</h2>
+                <div className="pro-details">
+                    <p>A DJ Event hosted at HYDE Park in 2024.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://web.facebook.com/media/set/?set=a.399919869290500&type=3" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div> 
+          </div>   
+
           <div className="project-container">
             <div className="project-card">
                 <img src={img6} alt="image" />
@@ -46,35 +119,135 @@ const WorkCardPhotoshoot = () => {
                 </div>
             </div>
             <div className="project-card">
-                <img src={img7} alt="image" />
-                <h2 className="project-title">IIT-Pongal 2023</h2>
+                <img src={img13} alt="image" />
+                <h2 className="project-title">Portrait Model Photoshoot</h2>
                 <div className="pro-details">
-                    <p>Pongal Event hosted at Informatics Institute of Technology. Held in January 2023.</p>
+                    <p>A portrait photoshoot with a model. Held in February 2023.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/media/set/?set=a.258007670148388&type=3" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.258008553481633&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
             <div className="project-card">
-                <img src={img8} alt="image" />
-                <h2 className="project-title">IIT-Iftar 2023</h2>
+                <img src={img57} alt="image" />
+                <h2 className="project-title">Umamaah's Engagement</h2>
                 <div className="pro-details">
-                    <p>Iftar Event hosted at Informatics Institute of Technology. Held in April 2023.</p>
+                    <p>Umamaah's Engagement. Get a glimpse of Umamaah's Engagement Pictures</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/media/set/?set=a.258006366815185&type=3" className="btn">View</NavLink>
+                        <NavLink to="https://web.facebook.com/media/set/?set=a.407272498555237&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
-            </div>
-          </div> 
+            </div> 
+          </div>   
+
 
           <div className="project-container">
             <div className="project-card">
-                <img src={img56} alt="image" />
-                <h2 className="project-title">Idhu Vaaliba Vayasu 2024 - DJ Event</h2>
+                <img src={img68} alt="image" />
+                <h2 className="project-title">Dinemore Food Product Shoot</h2>
                 <div className="pro-details">
-                    <p>A DJ Event hosted at HYDE Park in 2024.</p>
+                    <p>Food Product Shoot done for Dinemore Sri Lanka 2024.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/media/set/?set=a.399919869290500&type=3" className="btn">View</NavLink>
+                        <NavLink to="https://web.facebook.com/share/1C7rNHQdRN/" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+            <div className="project-card">
+                <img src={img69} alt="image" />
+                <h2 className="project-title">Chola Restaurant Food Product Shoot</h2>
+                <div className="pro-details">
+                    <p>Food Product Photoshoot done for Chola Restaurant Sri Lanka 2024.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://web.facebook.com/share/14K39KBDQT/" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+            <div className="project-card">
+                <img src={img18} alt="image" />
+                <h2 className="project-title">Portrait Photography</h2>
+                <div className="pro-details">
+                    <p>A compilation of portrait photography that was taken over the past years.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.258010306814791&type=3" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+          </div>   
+
+          <div className="project-container">
+            <div className="project-card">
+                <img src={img51} alt="image" />
+                <h2 className="project-title">21st Birthday Function</h2>
+                <div className="pro-details">
+                    <p>21st Birthday Party hosted at Sapphire Hotel. Held in May 2023.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.352237487392072&type=3" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+            <div className="project-card">
+                <img src={img52} alt="image" />
+                <h2 className="project-title">18th Birthday Function</h2>
+                <div className="pro-details">
+                    <p>18th Birthday Party hosted at Ramada Hotel. Held in August 2023.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.352239557391865&type=3" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+            <div className="project-card">
+                <img src={img14} alt="image" />
+                <h2 className="project-title">50th Birthday Party</h2>
+                <div className="pro-details">
+                    <p>50th Birthday Party hosted at Grand Orient Hotel. Held in April 2023.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.258008670148288&type=3" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+          </div>   
+
+          <div className="project-container">
+            <div className="project-card">
+                <img src={img59} alt="image" />
+                <h2 className="project-title">"Coffee Break" Cafe Photoshoot</h2>
+                <div className="pro-details">
+                    <p>Take a look at the pictures that were taken for Coffe Break Cafe located in Bambalapitiya.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://web.facebook.com/media/set/?set=a.448386061110547&type=3" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+            <div className="project-card">
+                <img src={img64} alt="image" />
+                <h2 className="project-title">Spicey Tree Restaurant Product Shoot</h2>
+                <div className="pro-details">
+                    <p>Food Product Shoot done for Spicey Restaurant in Colombo 2024.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://web.facebook.com/share/18GsYSEQZk/" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+            <div className="project-card">
+                <img src={img55} alt="image" />
+                <h2 className="project-title">Mezbaan Foods Restaurant Product Photoshoot</h2>
+                <div className="pro-details">
+                    <p>Product Photoshoot done for Mezbaan Foods Restaurant in 2023.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.352239204058567&type=3" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
+          </div>   
+
+          <div className="project-container">
+            <div className="project-card">
+                <img src={img54} alt="image" />
+                <h2 className="project-title">ESports Club IIT Installation</h2>
+                <div className="pro-details">
+                    <p>ESports Club Installation Event at IIT. Happened in August 2023.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.352239757391845&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
@@ -89,29 +262,18 @@ const WorkCardPhotoshoot = () => {
                 </div>
             </div>
             <div className="project-card">
-                <img src={img57} alt="image" />
-                <h2 className="project-title">Umamaah's Engagement</h2>
+                <img src={img19} alt="image" />
+                <h2 className="project-title">Wedding Event</h2>
                 <div className="pro-details">
-                    <p>Umamaah's Engagement. Get a glimpse of Umamaah's Engagement Pictures</p>
+                    <p>A compilation of wedding events that I shot over the past years.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/media/set/?set=a.407272498555237&type=3" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.258010403481448&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
-          </div>
-
+          </div>   
 
           <div className="project-container">
-            <div className="project-card">
-                <img src={img59} alt="image" />
-                <h2 className="project-title">"Coffee Break" Cafe Photoshoot</h2>
-                <div className="pro-details">
-                    <p>Take a look at the pictures that were taken for Coffe Break Cafe located in Bambalapitiya.</p>
-                    <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/media/set/?set=a.448386061110547&type=3" className="btn">View</NavLink>
-                    </div>
-                </div>
-            </div>
             <div className="project-card">
                 <img src={img60} alt="image" />
                 <h2 className="project-title">"Berpys" Baby Product's Photoshoot</h2>
@@ -132,12 +294,20 @@ const WorkCardPhotoshoot = () => {
                     </div>
                 </div>
             </div>
+            <div className="project-card">
+                <img src={img50} alt="image" />
+                <h2 className="project-title">Clothes Product Photoshoot</h2>
+                <div className="pro-details">
+                    <p>Product Photoshoot done for a Well Known brand in Sri Lanka. Held in July 2023.</p>
+                    <div className="pro-btns">
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.352240050725149&type=3" className="btn">View</NavLink>
+                    </div>
+                </div>
+            </div>
           </div>
+              
 
-
-
-
-          <div className="project-container">
+         <div className="project-container">
             <div className="project-card">
                 <img src={img9} alt="image" />
                 <h2 className="project-title">IIT-Christmas 2022</h2>
@@ -159,16 +329,16 @@ const WorkCardPhotoshoot = () => {
                 </div>
             </div>
             <div className="project-card">
-                <img src={img11} alt="image" />
-                <h2 className="project-title">IIT-Pongal 2022</h2>
+                <img src={img7} alt="image" />
+                <h2 className="project-title">IIT-Pongal 2023</h2>
                 <div className="pro-details">
-                    <p>Pongal Event hosted at Informatics Institute of Technology. Held in January 2022.</p>
+                    <p>Pongal Event hosted at Informatics Institute of Technology. Held in January 2023.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://www.facebook.com/media/set/?set=a.258005343481954&type=3" className="btn">View</NavLink>
+                        <NavLink to="https://web.facebook.com/media/set/?set=a.258007670148388&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
-          </div>
+         </div>   
 
           <div className="project-container">
             <div className="project-card">
@@ -182,29 +352,29 @@ const WorkCardPhotoshoot = () => {
                 </div>
             </div>
             <div className="project-card">
-                <img src={img13} alt="image" />
-                <h2 className="project-title">Portrait Model Photoshoot</h2>
+                <img src={img11} alt="image" />
+                <h2 className="project-title">IIT-Pongal 2022</h2>
                 <div className="pro-details">
-                    <p>A portrait photoshoot with a model. Held in February 2023.</p>
+                    <p>Pongal Event hosted at Informatics Institute of Technology. Held in January 2022.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://www.facebook.com/media/set/?set=a.258008553481633&type=3" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.258005343481954&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
             <div className="project-card">
-                <img src={img14} alt="image" />
-                <h2 className="project-title">50th Birthday Party</h2>
+                <img src={img8} alt="image" />
+                <h2 className="project-title">IIT-Iftar 2023</h2>
                 <div className="pro-details">
-                    <p>50th Birthday Party hosted at Grand Orient Hotel. Held in April 2023.</p>
+                    <p>Iftar Event hosted at Informatics Institute of Technology. Held in April 2023.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://www.facebook.com/media/set/?set=a.258008670148288&type=3" className="btn">View</NavLink>
+                        <NavLink to="https://web.facebook.com/media/set/?set=a.258006366815185&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
-          </div>
+          </div>   
 
           <div className="project-container">
-            <div className="project-card">
+          <div className="project-card">
                 <img src={img15} alt="image" />
                 <h2 className="project-title">BCI Graduation 2022</h2>
                 <div className="pro-details">
@@ -234,112 +404,11 @@ const WorkCardPhotoshoot = () => {
                     </div>
                 </div>
             </div>
-          </div>
-
-
-          <div className="project-container">
-            <div className="project-card">
-                <img src={img55} alt="image" />
-                <h2 className="project-title">Mezbaan Foods Restaurant Product Photoshoot</h2>
-                <div className="pro-details">
-                    <p>Product Photoshoot done for Mezbaan Foods Restaurant in 2023.</p>
-                    <div className="pro-btns">
-                        <NavLink to="https://www.facebook.com/media/set/?set=a.352239204058567&type=3" className="btn">View</NavLink>
-                    </div>
-                </div>
-            </div>
-            <div className="project-card">
-                <img src={img52} alt="image" />
-                <h2 className="project-title">18th Birthday Function</h2>
-                <div className="pro-details">
-                    <p>18th Birthday Party hosted at Ramada Hotel. Held in August 2023.</p>
-                    <div className="pro-btns">
-                        <NavLink to="https://www.facebook.com/media/set/?set=a.352239557391865&type=3" className="btn">View</NavLink>
-                    </div>
-                </div>
-            </div>
-            <div className="project-card">
-                <img src={img54} alt="image" />
-                <h2 className="project-title">ESports Club IIT Installation</h2>
-                <div className="pro-details">
-                    <p>ESports Club Installation Event at IIT. Happened in August 2023.</p>
-                    <div className="pro-btns">
-                        <NavLink to="https://www.facebook.com/media/set/?set=a.352239757391845&type=3" className="btn">View</NavLink>
-                    </div>
-                </div>
-            </div>
-          </div>
-
-          <div className="project-container">
-            <div className="project-card">
-                <img src={img50} alt="image" />
-                <h2 className="project-title">Clothes Product Photoshoot</h2>
-                <div className="pro-details">
-                    <p>Product Photoshoot done for a Well Known brand in Sri Lanka. Held in July 2023.</p>
-                    <div className="pro-btns">
-                        <NavLink to="https://www.facebook.com/media/set/?set=a.352240050725149&type=3" className="btn">View</NavLink>
-                    </div>
-                </div>
-            </div>
-            <div className="project-card">
-                <img src={img53} alt="image" />
-                <h2 className="project-title">GrooveLabs DJ Night 2023</h2>
-                <div className="pro-details">
-                    <p>GrooveLabs DJ Party hosted by Rythm Revolution. Held in August 2023.</p>
-                    <div className="pro-btns">
-                        <NavLink to="https://www.facebook.com/media/set/?set=a.352240320725122&type=3" className="btn">View</NavLink>
-                    </div>
-                </div>
-            </div>
-            <div className="project-card">
-                <img src={img17} alt="image" />
-                <h2 className="project-title">Clothing Accessories Product Photoshoot</h2>
-                <div className="pro-details">
-                    <p>Product Photoshoot for Alphauras.lk done in August September 2023.</p>
-                    <div className="pro-btns">
-                        <NavLink to="https://www.facebook.com/media/set/?set=a.352240597391761&type=3" className="btn">View</NavLink>
-                    </div>
-                </div>
-            </div>
-          </div>
-
-          <div className="project-container">
-            <div className="project-card">
-                <img src={img18} alt="image" />
-                <h2 className="project-title">Portrait Photography</h2>
-                <div className="pro-details">
-                    <p>A compilation of portrait photography that was taken over the past years.</p>
-                    <div className="pro-btns">
-                        <NavLink to="https://www.facebook.com/media/set/?set=a.258010306814791&type=3" className="btn">View</NavLink>
-                    </div>
-                </div>
-            </div>
-            <div className="project-card">
-                <img src={img19} alt="image" />
-                <h2 className="project-title">Wedding Event</h2>
-                <div className="pro-details">
-                    <p>A compilation of wedding events that I shot over the past years.</p>
-                    <div className="pro-btns">
-                        <NavLink to="https://www.facebook.com/media/set/?set=a.258010403481448&type=3" className="btn">View</NavLink>
-                    </div>
-                </div>
-            </div>
-            <div className="project-card">
-                <img src={img51} alt="image" />
-                <h2 className="project-title">21st Birthday Function</h2>
-                <div className="pro-details">
-                    <p>21st Birthday Party hosted at Sapphire Hotel. Held in May 2023.</p>
-                    <div className="pro-btns">
-                        <NavLink to="https://www.facebook.com/media/set/?set=a.352237487392072&type=3" className="btn">View</NavLink>
-                    </div>
-                </div>
-            </div>
-          </div>
-
-          
-          
+          </div>   
         </div>
+    
     )
+    
 }
 
 export default WorkCardPhotoshoot

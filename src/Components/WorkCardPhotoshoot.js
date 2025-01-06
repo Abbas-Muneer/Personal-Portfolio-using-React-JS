@@ -48,7 +48,7 @@ const WorkCardPhotoshoot = () => {
                 <div className="pro-details">
                     <p>HR Connect Event of Unilever that was held at Sheraton Sri Lanka 2024.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/share/14Z85gPnW5/" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.569146039034548&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ const WorkCardPhotoshoot = () => {
                 <div className="pro-details">
                     <p>Keyan & Yaara's Birthday Party 2024.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/share/1DQS1w2MQG/" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.569127735703045&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ const WorkCardPhotoshoot = () => {
                 <div className="pro-details">
                     <p>Book Launch Event of Mr. S.H.A. Wadood 2024.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/share/19aMKgQ49b/" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.569118182370667&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@ const WorkCardPhotoshoot = () => {
                 <div className="pro-details">
                     <p>DJ event at Playtrix One Galle Face 2024.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/share/15HGTWLL7s/" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.569102982372187&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@ const WorkCardPhotoshoot = () => {
                 <div className="pro-details">
                     <p>Umamaah's Engagement. Get a glimpse of Umamaah's Engagement Pictures</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/media/set/?set=a.407272498555237&type=3" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.407272498555237&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div> 
@@ -148,7 +148,7 @@ const WorkCardPhotoshoot = () => {
                 <div className="pro-details">
                     <p>Food Product Shoot done for Dinemore Sri Lanka 2024.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/share/1C7rNHQdRN/" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.574461665169652&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@ const WorkCardPhotoshoot = () => {
                 <div className="pro-details">
                     <p>Food Product Photoshoot done for Chola Restaurant Sri Lanka 2024.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/share/14K39KBDQT/" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.574469155168903&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
@@ -224,7 +224,7 @@ const WorkCardPhotoshoot = () => {
                 <div className="pro-details">
                     <p>Food Product Shoot done for Spicey Restaurant in Colombo 2024.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/share/18GsYSEQZk/" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.569109482371537&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
@@ -347,7 +347,7 @@ const WorkCardPhotoshoot = () => {
                 <div className="pro-details">
                     <p>Diwali Event hosted at Royal Institute College. Held in December 2022.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/media/set/?set=a.392194016729752&type=3" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.392194016729752&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>
@@ -367,7 +367,7 @@ const WorkCardPhotoshoot = () => {
                 <div className="pro-details">
                     <p>Iftar Event hosted at Informatics Institute of Technology. Held in April 2023.</p>
                     <div className="pro-btns">
-                        <NavLink to="https://web.facebook.com/media/set/?set=a.258006366815185&type=3" className="btn">View</NavLink>
+                        <NavLink to="https://www.facebook.com/media/set/?set=a.258006366815185&type=3" className="btn">View</NavLink>
                     </div>
                 </div>
             </div>

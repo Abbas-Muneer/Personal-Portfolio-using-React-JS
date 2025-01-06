@@ -7,7 +7,7 @@ import WorkCardPhotoshoot from "../Components/WorkCardPhotoshoot";
 
 const Photoshoot = () => {
   return (
-    <div>
+    <div className="">
         <Navbar/>
         <HeroImg2 heading="PHOTOSHOOTS" text="Some of my best photoshoots!" />
         <WorkCardPhotoshoot/>

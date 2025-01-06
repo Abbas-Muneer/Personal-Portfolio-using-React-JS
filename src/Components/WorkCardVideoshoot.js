@@ -14,6 +14,8 @@ import img72 from "../assets/img72.png"
 import img73 from "../assets/img73.png";
 import img74 from "../assets/img74.png";
 import img75 from "../assets/img75.png"
+import img76 from "../assets/img76.png"
+import img77 from "../assets/img77.png"
 import { NavLink } from "react-router-dom";
 
 
@@ -94,7 +96,7 @@ const WorkCardVideoshoot = () => {
             <div className="pro-details">
                 <p>These contain commercials that was taken for Chola Restaurant Sri Lanka.</p>
                 <div className="pro-btns">
-                    <NavLink to="https://web.facebook.com/share/15o2LypAVS/" className="btn">View</NavLink>
+                    <NavLink to="https://www.facebook.com/media/set/?set=a.574516035164215&type=3" className="btn">View</NavLink>
                 </div>
             </div>
         </div>
@@ -104,7 +106,7 @@ const WorkCardVideoshoot = () => {
             <div className="pro-details">
                 <p>These contain commercials that was taken for Dindigul Thalappakatti Restaurant.</p>
                 <div className="pro-btns">
-                    <NavLink to="https://web.facebook.com/share/15MDRxNmRZ/" className="btn">View</NavLink>
+                    <NavLink to="https://www.facebook.com/media/set/?set=a.574516768497475&type=3" className="btn">View</NavLink>
                 </div>
             </div>
         </div>
@@ -114,7 +116,7 @@ const WorkCardVideoshoot = () => {
             <div className="pro-details">
                 <p>These contain commercials that was taken for Coffe Break Cafe Sri Lanka.</p>
                 <div className="pro-btns">
-                    <NavLink to="https://web.facebook.com/share/18DcquH4AM/" className="btn">View</NavLink>
+                    <NavLink to="https://www.facebook.com/media/set/?set=a.569085409040611&type=3" className="btn">View</NavLink>
                 </div>
             </div>
         </div>
@@ -127,7 +129,7 @@ const WorkCardVideoshoot = () => {
             <div className="pro-details">
                 <p>These contain commercials that was taken for River View Villas SriLanka.</p>
                 <div className="pro-btns">
-                    <NavLink to="https://web.facebook.com/share/15HzWNcJUP/" className="btn">View</NavLink>
+                    <NavLink to="https://www.facebook.com/media/set/?set=a.569088702373615&type=3" className="btn">View</NavLink>
                 </div>
             </div>
         </div>
@@ -137,7 +139,7 @@ const WorkCardVideoshoot = () => {
             <div className="pro-details">
                 <p>These contain commercials that was taken for Cuddles & Co. Sri Lanka</p>
                 <div className="pro-btns">
-                    <NavLink to="https://web.facebook.com/share/19ZxKxHG92/" className="btn">View</NavLink>
+                    <NavLink to="https://www.facebook.com/media/set/?set=a.569086465707172&type=3" className="btn">View</NavLink>
                 </div>
             </div>
         </div>
@@ -147,11 +149,35 @@ const WorkCardVideoshoot = () => {
             <div className="pro-details">
                 <p>This commercial was done for Royal Rugby and Gilbert.</p>
                 <div className="pro-btns">
-                    <NavLink to="https://web.facebook.com/share/17hGEMtqvQ/" className="btn">View</NavLink>
+                    <NavLink to="https://www.facebook.com/media/set/?set=a.569089465706872&type=3" className="btn">View</NavLink>
                 </div>
             </div>
         </div>
       </div> 
+
+      <div className="project-container">
+        <div className="project-card">
+            <img src={img76} alt="image" />
+            <h2 className="project-title">Commercials for Adyar Ananda Bhavan Sri Lanka</h2>
+            <div className="pro-details">
+                <p>These contain commercials and reels that was taken for Adyar Ananda Bhavan Sri Lanka.</p>
+                <div className="pro-btns">
+                    <NavLink to="https://www.facebook.com/media/set/?set=a.602826475666504&type=3" className="btn">View</NavLink>
+                </div>
+            </div>
+        </div>
+        <div className="project-card">
+            <img src={img77} alt="image" />
+            <h2 className="project-title">Commercials for Kings Grand Residence Sri Lanka</h2>
+            <div className="pro-details">
+                <p>These contain commercials and reels that was taken for Kings Grand Residence Sri Lanka</p>
+                <div className="pro-btns">
+                    <NavLink to="https://www.facebook.com/media/set/?set=a.602827395666412&type=3" className="btn">View</NavLink>
+                </div>
+            </div>
+        </div>
+    
+      </div>
       
     </div>
   )
